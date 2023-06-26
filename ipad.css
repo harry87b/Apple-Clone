@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#header{
+  height: 150px;
+
+}
+body{
+      margin: 0;
+			font-family: 'Alegreya Sans', sans-serif;
+			font-weight:100;
+		}
+		.container{
+			width: 75%;
+			margin: 0 auto;
+			padding-top: 7px;
+		}
+		header{
+			background-color: rgb(51,51,51);
+			width: 100%;
+
+			height: 43px;
+		}
+		#logo{
+      color:white;
+      font-size:22px;
+			position: absolute;
+      top:8px;
+			left: 12%;
+			float: left;
+			margin-top: 1px;
+		}
+    #logo:hover{
+      cursor:pointer;
+			opacity: .6;
+			transition: .3s;
+		}
+		nav{
+
+			position: absolute;
+			left: 35%;
+			margin-top: 4px;
+		}
+		nav a{
+			text-decoration: none;
+			color: white;
+			margin-right: 70px;
+			font-size: 18px;
+		}
+		nav a:hover{
+			opacity: .5;
+			transition: .3s;
+		}
+		.right{
+			float: right;
+		}
+		#search{
+			position: absolute;
+			right: 244px;
+			margin-top: 7px;
+      color:white;
+      font-weight:normal;
+		}
+    #search:hover{
+      opacity: .5;
+			transition: .3s;
+      cursor:pointer;
+    }
+		#lock{
+      color:white;
+			margin-top: 6px;
+			margin-right: -3px;
+		}
+    #lock:hover{
+      opacity: .5;
+			transition: .3s;
+      cursor:pointer;
+    }
+		.banner{                 background:url("http://mateen.kurdzman.net/ban.png") no-repeat;
+			width: 100%;
+      height: 585px;
+      background-position:center;
+      background-size:cover;
+		}
+.fas{
+  color: white;
+
+}
+.row{
+  width: 100%;
+  padding: 3% 0;
+}
+/* second section */
+#second{
+  padding: 0 8%;
+  text-align: center;
+}
+.text{
+  padding: 15% 0;
+}
+.hand{
+  width: 100%;
+}
+/* third section */
+#third{
+  padding: 4% 2%;
+  text-align: center;
+}
+#fourth{
+  padding: 4% 6%;
+  text-align: center;
+}
+.fa-microchip{
+  color: black;
+}
+.fa-sim-card{
+  color: black;
+}
+.fa-signal{
+  color: black;
+}
+.fa-laptop{
+  color: black;
+}
+#fourth.ipad-1{
+  margin-left: 30px;
+	-webkit-transform: scale(0.5);
+	transform: scale(1.0);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+#fourth.ipad:hover{
+    margin-left: 0;
+}
+/* fifth section */
+#fifth{
+  padding: 2% 5%;
+}
+#sixth{
+  padding: 2% 8%;
+}
